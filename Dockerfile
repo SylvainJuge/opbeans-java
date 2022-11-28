@@ -2,7 +2,7 @@
 
 #Build application stage
 #We need maven.
-FROM maven:3.6.3-jdk-11
+FROM maven:3.8.6-jdk-11
 ARG JAVA_AGENT_BRANCH=master
 ARG JAVA_AGENT_REPO=elastic/apm-agent-java
 
